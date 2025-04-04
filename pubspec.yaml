@@ -20,7 +20,8 @@ dependencies:
 
   solana_common: ^0.1.0+1
     # path: ../solana_common
-  solana_jsonrpc: ^0.0.1
+  solana_jsonrpc:
+    git: https://github.com/root37labs/solana_jsonrpc
     # path: ../solana_jsonrpc
   solana_wallet_adapter_android: ^0.0.6
     # path: ../solana_wallet_adapter_android
