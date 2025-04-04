@@ -23,14 +23,14 @@ dependencies:
   solana_jsonrpc:
     git: https://github.com/root37labs/solana_jsonrpc
     # path: ../solana_jsonrpc
-  solana_wallet_adapter_android: ^0.0.6
-    # path: ../solana_wallet_adapter_android
-  solana_wallet_adapter_ios: ^0.0.6
-    # path: ../solana_wallet_adapter_ios
-  solana_wallet_adapter_platform_interface: ^0.0.6
-    # path: ../solana_wallet_adapter_platform_interface
+  solana_wallet_adapter_android:
+    git: https://github.com/root37labs/solana_wallet_adapter_android
+  solana_wallet_adapter_ios:
+    git: https://github.com/root37labs/solana_wallet_adapter_ios
+  solana_wallet_adapter_platform_interface:
+    git: https://github.com/root37labs/solana_wallet_adapter_platform_interface
   solana_wallet_adapter_web:
-     git: https://github.com/root37labs/solana_wallet_adapter_web
+     git: https://github.com/root37labs/solana_wallet_adapter_web.git
 
 dev_dependencies:
   flutter_test:

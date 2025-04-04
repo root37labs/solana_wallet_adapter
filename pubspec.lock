@@ -228,10 +228,10 @@ packages:
     dependency: transitive
     description:
       name: pinenacl
-      sha256: "3a5503637587d635647c93ea9a8fecf48a420cc7deebe6f1fc85c2a5637ab327"
+      sha256: "57e907beaacbc3c024a098910b6240758e899674de07d6949a67b52fd984cbdf"
       url: "https://pub.dev"
     source: hosted
-    version: "0.5.1"
+    version: "0.6.0"
   platform:
     dependency: transitive
     description:
@@ -336,51 +336,56 @@ packages:
   solana_jsonrpc:
     dependency: "direct main"
     description:
-      name: solana_jsonrpc
-      sha256: "1bb286b60918a621d5909503e0daa928c9f99f2241d8eb4b2cc7f74d1a78deee"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: f4a2d7a40a2f4846102a11071626e2aac195fa1b
+      url: "https://github.com/root37labs/solana_jsonrpc"
+    source: git
     version: "0.0.1"
   solana_wallet_adapter_android:
     dependency: "direct main"
     description:
-      name: solana_wallet_adapter_android
-      sha256: "7265d1a2e038b7bec00c8c9264b81071bf1764fcbf8536b3f72655572271a94c"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "21002b5efb97c19a97a7dd4ad7f196e3b4c33938"
+      url: "https://github.com/root37labs/solana_wallet_adapter_android"
+    source: git
     version: "0.0.6"
   solana_wallet_adapter_ios:
     dependency: "direct main"
     description:
-      name: solana_wallet_adapter_ios
-      sha256: "84bc62179bba180fe94b5671cf90317215a01420cdf7a73d299c47355238e591"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "865d261e6b092174b2a1da60b194a36b7f57decf"
+      url: "https://github.com/root37labs/solana_wallet_adapter_ios"
+    source: git
     version: "0.0.6"
   solana_wallet_adapter_platform_interface:
     dependency: "direct main"
     description:
-      name: solana_wallet_adapter_platform_interface
-      sha256: "1a5fe055459bb2560472c308e465d0d42e8c7248826b090eecae7da6a349e168"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: e9f0a33ffd1a7086ea479f9928ab02d005a0f3b6
+      url: "https://github.com/root37labs/solana_wallet_adapter_platform_interface"
+    source: git
     version: "0.0.6"
   solana_wallet_adapter_web:
     dependency: "direct main"
     description:
       path: "."
       ref: HEAD
-      resolved-ref: c89febd8e138e4f5e9e656fa988c4e84326b7a7c
-      url: "https://github.com/root37labs/solana_wallet_adapter_web"
+      resolved-ref: e2a380a36e5e07627bcbced93bf8c157895bd432
+      url: "https://github.com/root37labs/solana_wallet_adapter_web.git"
     source: git
     version: "0.0.9"
   solana_web3:
     dependency: transitive
     description:
-      name: solana_web3
-      sha256: "706b76a475e74dae5ffb523b66c0c51cc73f8e2a137bf418debaba096b42510c"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "750537e30317d0f14765b53b7fdb3fe0f9b7bb80"
+      url: "https://github.com/root37labs/solana_web3.git"
+    source: git
     version: "0.1.3"
   source_span:
     dependency: transitive
@@ -470,14 +475,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.5.1"
+  web_socket:
+    dependency: transitive
+    description:
+      name: web_socket
+      sha256: "3c12d96c0c9a4eec095246debcea7b86c0324f22df69893d538fcc6f1b8cce83"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.6"
   web_socket_channel:
     dependency: transitive
     description:
       name: web_socket_channel
-      sha256: "58c6666b342a38816b2e7e50ed0f1e261959630becd4c879c4f26bfa14aa5a42"
+      sha256: "0b8e2457400d8a859b7b2030786835a28a8e80836ef64402abef392ff4f1d0e5"
       url: "https://pub.dev"
     source: hosted
-    version: "2.4.5"
+    version: "3.0.2"
   webcrypto:
     dependency: transitive
     description:
